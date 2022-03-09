@@ -51,7 +51,7 @@ let names = ['Aleksey','Kartoshka','Margarita','Morgenshtern','Monica']
 
 let c = +prompt('Введите число')
 
-names.splice(c,c)
+names.splice(c,1)
 
 console.log(names);
 
